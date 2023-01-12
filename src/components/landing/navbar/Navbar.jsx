@@ -11,7 +11,7 @@ import '../../../components/landing/navbar/Navbar.css';
   return (
     <div>
         <Navbar className="nav"expand="lg">
-      <Container className="navbar justify-content-between">
+      <Container className="navbar ">
         <Navbar.Brand href="#home">COVIMAP</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
