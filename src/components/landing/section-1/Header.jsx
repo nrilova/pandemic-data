@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../components/landing/section-1/Header.css';
 import Navegation from '../../../components/landing/navbar/Navbar';
+import Stayhome from '../../../components/atoms/Stayhome.jsx';
 
 
  function Header() {
@@ -8,9 +9,7 @@ import Navegation from '../../../components/landing/navbar/Navbar';
     <header>
         <div className="cover ">
             <Navegation />
-            <Stayhome />
-            
-        
+            <Stayhome />   
         </div>
     </header>
   )
