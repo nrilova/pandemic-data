@@ -4,7 +4,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
+<<<<<<< HEAD
 import '../../landing/navbar/navbar.css'
+=======
+import '../../../components/landing/navbar/Navbar.css';
+
+>>>>>>> 612f1b634cbb88ed3abe85195499f73ab5832eba
 
  function Navegation() {
   return (
