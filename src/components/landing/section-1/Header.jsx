@@ -8,7 +8,7 @@ import Stayhome from '../../../components/atoms/Stayhome.jsx';
  function Header() {
   return (
     <header>
-        <div className="cover ">
+        <div className="cover">
             <Navegation />
             <Stayhome />
             
