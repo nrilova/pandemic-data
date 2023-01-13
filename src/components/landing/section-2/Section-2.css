@@ -1,0 +1,29 @@
+
+
+.spread-image img {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+* {
+    outline: none;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
