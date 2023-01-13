@@ -10,9 +10,7 @@ import Stayhome from '../../../components/atoms/Stayhome.jsx';
     <header>
         <div className="cover">
             <Navegation />
-            <Stayhome />
-            
-        
+            <Stayhome />   
         </div>
     </header>
   )
