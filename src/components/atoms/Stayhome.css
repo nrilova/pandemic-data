@@ -3,7 +3,11 @@
    margin-left:80px;
    display: inline-block;
    color:white;
-   margin-top:50px;
-   
-   
+   margin-top:5px;
+   font-weight: bold;  
+}
+.stayhome-mensaje{
+   width: 500px;
+   margin-left:80px;
+ 
 }

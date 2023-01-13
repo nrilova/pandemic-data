@@ -11,13 +11,13 @@ import Button from 'react-bootstrap/Button';
   return (
     <div>
         <Navbar className="nav-navbar" expand="lg">
-        <Container className=" text-white container-nav">
+        <Container className="container-nav">
         <Navbar.Brand className="header-brand" href="#home">COVIMAP</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className=" text-white navbar p-3 ">
-          <NavDropdown title="Home" id=" basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+          <Nav className=" text-navbar navbar p-3 ">
+          <NavDropdown title="Home" id="basic-nav-dropdown">
+              <NavDropdown.Item className="text-navbar" href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
@@ -27,8 +27,8 @@ import Button from 'react-bootstrap/Button';
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Prevention</Nav.Link>
-            <Nav.Link href="#link">Qurantine</Nav.Link>
+            <Nav.Link id="text-navbar" href="#link">Prevention</Nav.Link>
+            <Nav.Link id="text-navbar" href="#link">Qurantine</Nav.Link>
             <NavDropdown title="Pages" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -40,8 +40,8 @@ import Button from 'react-bootstrap/Button';
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Help</Nav.Link>
+            <Nav.Link id="text-navbar"href="#link">About</Nav.Link>
+            <Nav.Link id="text-navbar"href="#link">Help</Nav.Link>
             <Button className="boton-tracker" variant="primary" 
             >Tracker
           </Button>{' '}

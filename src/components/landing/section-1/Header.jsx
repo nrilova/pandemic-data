@@ -1,7 +1,9 @@
 import React from 'react'
 import '../../../components/landing/section-1/Header.css';
 import Navegation from '../../../components/landing/navbar/Navbar';
-import Stayhome from '../../../components/atoms/Stayhome.jsx';
+import Stayhome from '../../../components/atoms/Stayhome';
+import Cough from '../../../components/atoms/Cough';
+
 
 
  function Header() {
@@ -9,7 +11,10 @@ import Stayhome from '../../../components/atoms/Stayhome.jsx';
     <header>
         <div className="cover ">
             <Navegation />
-            <Stayhome />   
+            <Stayhome />  
+            <Cough 
+            image="banner-right-image1"
+            />
         </div>
     </header>
   )

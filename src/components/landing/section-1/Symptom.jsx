@@ -3,7 +3,7 @@ import '../../../components/landing/section-1/Symptom.css';
 
  function Symptom(props) {
   return (
-  
+        
         <section className="section-symptom">
         <div className="contenedor-symptom ">
            <img className="imagen-symptom"
