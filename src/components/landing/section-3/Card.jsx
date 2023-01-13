@@ -12,8 +12,4 @@ function Card(props) {
   );
 }
 
-<<<<<<< HEAD
 export default Card;
-=======
-export default Card;
->>>>>>> 612f1b634cbb88ed3abe85195499f73ab5832eba

@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 612f1b634cbb88ed3abe85195499f73ab5832eba
 import Card from 'react-bootstrap/Card';
-
 
 function CardImage(props) {
   return (
