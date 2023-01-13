@@ -3,20 +3,20 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Button from 'react-bootstrap/Button';
 import '../../../components/landing/navbar/Navbar.css';
+import Button from 'react-bootstrap/Button';
 
 
  function Navegation() {
   return (
     <div>
-        <Navbar className="nav"expand="lg">
-      <Container className="navbar justify-content-between">
-        <Navbar.Brand href="#home">COVIMAP</Navbar.Brand>
+        <Navbar className="nav-navbar" expand="lg">
+        <Container className=" text-white container-nav">
+        <Navbar.Brand className="header-brand" href="#home">COVIMAP</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-          <NavDropdown title="Home" id="basic-nav-dropdown">
+          <Nav className=" text-white navbar p-3 ">
+          <NavDropdown title="Home" id=" basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -42,10 +42,12 @@ import '../../../components/landing/navbar/Navbar.css';
             </NavDropdown>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">Help</Nav.Link>
-            <Button ClassName="boton_tracker"variant="primary" size="lg">Tracker</Button>
-          </Nav>
+            <Button className="boton-tracker" variant="primary" 
+            >Tracker
+          </Button>{' '}
+          </Nav> 
         </Navbar.Collapse>
-      </Container>
+       </Container>
     </Navbar>
     </div>
   )

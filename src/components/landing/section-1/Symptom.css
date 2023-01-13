@@ -1,0 +1,38 @@
+.section-symptom{
+    display: inline-block;
+    padding: 10px;
+    max-width: 1100px;
+    margin: 40px;
+    align-items: center;  
+}
+.contenedor-symptom{
+    margin-left:20px;
+    max-width: 300px;
+    height:268px;
+    text-align: left;
+    box-shadow: 0 3px 13px 1px rgba(0 0 0 / 9%);  
+}
+.contenedor-symptom:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.name-symptom{
+    margin-left:20px; 
+}
+.text-symptom{
+    font-size: 15px;
+    margin-left:20px;
+}
+
+.imagen-symptom{
+    margin-left:20px;
+    padding-top:20px;
+    width: 90px;
+    height:90px;  
+}
+
+.nombre-symptom{
+    margin-bottom: 20px;
+}
