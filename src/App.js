@@ -11,7 +11,7 @@ function App() {
       <Header />
 
     <div className="Symptom">
-      < Symptom
+      <Symptom
     titulo="Aches and pains"
     text="Fever is a Key symptom,experts say. Don't fixate an a number, but know it's really not a fiver until your temperature reaches at least 100."
     imagen="banner-right" />

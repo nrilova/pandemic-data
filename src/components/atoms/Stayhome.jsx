@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Stayhome  
-() {
+function Stayhome() {
   return (
        <div>
               <h1 className="Stayhome">

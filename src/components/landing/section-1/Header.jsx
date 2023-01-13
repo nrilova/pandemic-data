@@ -8,6 +8,7 @@ import Navegation from '../../../components/landing/navbar/Navbar';
     <header>
         <div className="cover ">
             <Navegation />
+            <Stayhome />
             
         
         </div>
