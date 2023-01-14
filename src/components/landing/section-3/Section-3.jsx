@@ -11,7 +11,6 @@ import keep2 from '../../../images/p-6.jpg';
 
 function Section3() {
   return (
-    <div className='prop padding-v100'>
       <div className='prop-container'>
         <div className='row justify-content-center'>
           <div className='col-xl-8'>
@@ -23,7 +22,7 @@ function Section3() {
         </div>
         <div className='row'>
           <div className='col-xl-4 col-lg-4 col-md-6 has-animation'>
-            <div className='card'>
+            <div className='card section-speads'>
             
             <CardReact 
                 imageUrl={wear1}
@@ -56,7 +55,7 @@ function Section3() {
         </div>
         <div className='row'>
           <div className='col-xl-4 col-lg-4 col-md-6 has-animation'>
-            <div className='card d-flex'>
+            <div className='card section-spreads'>
             <CardReact 
                 imageUrl={wear2}
                 imageAlt="wear facemask 2"
@@ -87,7 +86,6 @@ function Section3() {
           </div>
         </div>
       </div>
-    </div>
   )
 }
 

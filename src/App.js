@@ -2,7 +2,6 @@ import './App.css';
 
 import Header from './components/landing/section-1/Header';
 import Symptom from './components/landing/section-1/Symptom';
-import Navegation from './components/landing/navbar/Navbar';
 import Section3 from './components/landing/section-3/Section-3';
 
 
@@ -10,10 +9,8 @@ import Section3 from './components/landing/section-3/Section-3';
 function App() {
   return (
     <div className="App">
-      <Navegation />
-      <Section3/>
       <Header />
-
+     
     <div className="Symptom">
       <Symptom
     titulo="Aches and pains"
@@ -30,6 +27,7 @@ function App() {
     imagen="banner-right"
     />
     </div>
+    <Section3/>
  </div>
 
 
