@@ -3,16 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import '../../../components/landing/navbar/Navbar.css';
 import Button from 'react-bootstrap/Button';
-
+import '../../../components/landing/navbar/navbar.css';
 
  function Navegation() {
   return (
     <div>
-        <Navbar className="nav-navbar" expand="lg">
-        <Container className=" text-white container-nav">
-        <Navbar.Brand className="header-brand" href="#home">COVIMAP</Navbar.Brand>
+        <Navbar className="nav"expand="lg">
+      <Container className="navbar ">
+        <Navbar.Brand href="#home">COVIMAP</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" text-white navbar p-3 ">

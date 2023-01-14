@@ -1,14 +1,20 @@
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import Navbar from './components/landing/navbar/Navbar'
+//import Traker1 from './components/trakers/traker-1/Traker-1'
+import Section2 from './components/landing/section-2/Section-2';
 import Header from './components/landing/section-1/Header';
 import Symptom from './components/landing/section-1/Symptom';
 import Section3 from './components/landing/section-3/Section-3';
+import Section4 from './components/landing/section-4/Section-4';
 
 
 
 function App() {
   return (
     <div className="App">
+    
+      
       <Header />
      
     <div className="Symptom">
@@ -27,9 +33,10 @@ function App() {
     imagen="banner-right"
     />
     </div>
-    <Section3/>
+    <Section2/>
+    <Section3 />
+    <Section4 />
  </div>
-
 
   );
 }
