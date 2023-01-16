@@ -1,10 +1,16 @@
+
 @import 'bootstrap/dist/css/bootstrap.min.css';
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap');
+
+
+* {
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 html, body{
+ 
   font-size:18px;
 
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import './cardReact.css'
 import CardReact from "../section-3/CardReact";
 import wear1 from "../../../images/p-1.jpg";
 import wear2 from "../../../images/p-2.jpg";
@@ -15,7 +16,7 @@ function Section3() {
         <h2 className="subtitle">Disease spreads from person to person</h2>
       </div>
       <div>
-        <div className="container section-speads ">
+        <div className="container section-spreads">
           <div className="row justify-content-around m-3">
             <div className="card-spread col-md-3 p-5">
               <CardReact
@@ -48,7 +49,7 @@ function Section3() {
                 a cough."
               />
             </div>
-          </div>
+            </div>
           <div className="row justify-content-around m-3">
             <div className="card-spread col-md-3 p-5">
               <CardReact

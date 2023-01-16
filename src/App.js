@@ -33,7 +33,7 @@ function App() {
     imagen="banner-right"
     />
     </div>
-    <Section2/>
+    <Section2 />
     <Section3 />
     <Section4 />
  </div>

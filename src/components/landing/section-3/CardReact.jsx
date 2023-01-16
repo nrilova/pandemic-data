@@ -1,6 +1,9 @@
 import Card from 'react-bootstrap/Card';
+import './cardReact.css';
+import '../../../App.css';
 
-function CardImage(props) {
+
+function CardReact(props) {
   return (
     <div className='section-spread'>
     <Card  className="contenedor-spread "style={{ width: '18rem' }}>
@@ -16,4 +19,4 @@ function CardImage(props) {
   );
 }
 
-export default CardImage;
+export default CardReact;
