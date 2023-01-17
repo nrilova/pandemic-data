@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../components/landing/section-1/Symptom.css';
+import '../../../views/landing/section-1/Symptom.css';
 
  function Symptom(props) {
   return (
@@ -7,7 +7,7 @@ import '../../../components/landing/section-1/Symptom.css';
         <section className="section-symptom">
         <div className="contenedor-symptom ">
            <img className="imagen-symptom"
-           src={require(`../../../images/${props.imagen}.png`)}
+           src={require(`../../../asset/images/${props.imagen}.png`)}
            alt='pulmones'/>
             <h3 className="name-symptom">{props.titulo} </h3>
             <p className="text-symptom">{props.text} </p>
