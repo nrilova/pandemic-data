@@ -1,11 +1,17 @@
 .section-symptom{
     display: inline-block;
     max-width: 1100px;
-    margin: 40px;
-    align-items: center;  
+    margin-left:80px;
+    justify-items: center;
+    align-content: space-around;
+    
+   
+    
+     
    
 }
 .contenedor-symptom{
+    display: inline-block;
     background-color: white;
     margin-left:5px;
     width: 350px;
@@ -16,7 +22,6 @@
      box-shadow: 10px 10px 43px 1px rgba(0,0,0,0.75);
 }
 .contenedor-symptom:hover{
-    
     transform: scale(1.1);
     box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.5);
     z-index: 1;
