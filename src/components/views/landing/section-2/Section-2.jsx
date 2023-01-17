@@ -1,12 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../section-2/Section-2.css'
-import Icon2 from '../../../images/icon2.png'
-import Icon4 from '../../../images/icon4.png'
-import Icon5 from '../../../images/icon5.png'
-import Breathing from '../../../images/breathing.svg'
-import Icon6 from '../../../images/icon6.png'
-import BannerRight from '../../../images/banner-right.png'
+import Icon2 from '../../../asset/images/icon2.png'
+import Icon4 from '../../../asset/images/icon4.png'
+import Icon5 from '../../../asset/images/icon5.png'
+import Breathing from '../../../asset/images/breathing.svg'
+import Icon6 from '../../../asset/images/icon6.png'
+import BannerRight from '../../../asset/images/banner-right.png'
 
 function Section2() {
     return (

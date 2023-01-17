@@ -1,12 +1,13 @@
-import React from "react";
-import './cardReact.css'
-import CardReact from "../section-3/CardReact";
-import wear1 from "../../../images/p-1.jpg";
-import wear2 from "../../../images/p-2.jpg";
-import wash1 from "../../../images/p-3.jpg";
-import wash2 from "../../../images/p-4.jpg";
-import keep1 from "../../../images/p-5.jpg";
-import keep2 from "../../../images/p-6.jpg";
+import React from 'react';
+import CardReact from '../section-3/CardReact';
+import wear1 from '../../../asset/images/p-1.jpg';
+import wear2 from '../../../asset/images/p-2.jpg';
+import wash1 from '../../../asset/images/p-3.jpg';
+import wash2 from '../../../asset/images/p-4.jpg';
+import keep1 from '../../../asset/images/p-5.jpg';
+import keep2 from '../../../asset/images/p-6.jpg';
+
+
 
 function Section3() {
   return (
