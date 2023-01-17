@@ -1,7 +1,7 @@
 import React from "react";
 import '../../landing/section-4/Section-4.css';
-import Wash from '../../../images/wash.png';
-import Phone from '../../../images/phone-1.png';
+import Wash from '../../../asset/images/wash.png';
+import Phone from '../../../asset/images/phone-1.png';
 
 
 function Views () {
