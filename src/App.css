@@ -9,10 +9,11 @@
   box-sizing: border-box;
   
 }
-html, body{
- 
-  font-size:18px;
 
+ 
+ html, body{
+  font-size:18px;
+  background-color:rgb(239, 235, 235);
 }
 
 .title, h1 {
