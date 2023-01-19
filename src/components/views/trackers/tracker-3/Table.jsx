@@ -9,46 +9,50 @@ import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 
 const columns = [
-  { id: 'Active', label: 'Active', minWidth: 170 },
+  { id: 'flag', label: 'Name', minWidth: 170 },
   { id: 'code', label: 'ISO\u00a0Code', minWidth: 100 },
   {
-    id: 'Active',
-    label: 'Active',
+    id: 'population',
+    label: 'Population',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
-    id: 'Updated',
-    label: 'updated\u00a0(km\u00b2)',
+    id: 'size',
+    label: 'Size\u00a0(km\u00b2)',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
   },
   {
-    id: 'Cases',
-    label: 'Cases',
-    minWidth: 170,
-    align: 'right',
-    format: (value) => value.toFixed(2),
-  },
-  {
-    id: 'recovered',
-    label: 'recovered',
+    id: 'density',
+    label: 'Density',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toFixed(2),
   },
 ];
 
-function createData ({data: { active, deaths, recovered, updated } }) {
-  const recovered = cases / updated;
-  return { active, cases, recovered, updated };
+function createData(flag, code, population, size) {
+  const density = population / size;
+  return { flag, code, population, size, density };
 }
 
+const rows = [
+  createData('USA', '', ),
+  createData('India', '', ),
+  createData('Brazil', '', ),
+  createData('France', '', ),
+  createData('UK', 'CA', ),
+  createData('Russia', '',),
+  createData('Turkey', '', ),
+  createData('Italy', '', ),
+  createData('Germany', '',),
+  createData('Spain', '', ),
+];
 
-
-export default function ColumnGroupingTable() {
+export default function StickyHeadTable() {
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 
@@ -62,24 +66,16 @@ export default function ColumnGroupingTable() {
   };
 
   return (
-    <Paper sx={{ width: '100%' }}>
+    <Paper sx={{ width: '100%', overflow: 'hidden' }}>
       <TableContainer sx={{ maxHeight: 440 }}>
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
-            <TableRow>
-              <TableCell align="center" colSpan={2}>
-                Country
-              </TableCell>
-              <TableCell align="center" colSpan={3}>
-                Details
-              </TableCell>
-            </TableRow>
             <TableRow>
               {columns.map((column) => (
                 <TableCell
                   key={column.id}
                   align={column.align}
-                  style={{ top: 57, minWidth: column.minWidth }}
+                  style={{ minWidth: column.minWidth }}
                 >
                   {column.label}
                 </TableCell>
