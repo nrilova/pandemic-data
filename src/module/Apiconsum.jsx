@@ -14,7 +14,7 @@ const url = 'https://disease.sh/v3/covid-19/all';
  
  export const fetchCountryData = async () => {
     try {
-        const { data } = await axios.get(`${url}/country`);
+        const { data } = await axios.get(`${url}/daily`);
         console.log(data);  
     }catch (error) {
         return error;

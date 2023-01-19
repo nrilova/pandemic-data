@@ -9,7 +9,7 @@ import Tracker3 from "./components/views/trackers/tracker-3/Tracker3";
 import React from "react";
 import Styles from './App.module.css';
 import { fetchData } from '../src/module/Apiconsum';
-//import Table from './components/views/trackers/tracker-3/Table';
+import Table from './components/views/trackers/tracker-3/Table';
 
 class App extends React.Component {
   state = {
@@ -51,7 +51,7 @@ class App extends React.Component {
       <Section4 />
     </div>*/}
     <Tracker3 data={data} country={country} />
-   
+    <Table data={data} country={country}/>
     </div>
   );
 }
