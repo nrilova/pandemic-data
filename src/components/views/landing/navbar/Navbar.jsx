@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import '../../../views/landing/navbar/navbar.css';
-import Tracker3 from '../../trakers/traker-3/Tracker-3';
+import Tracker3 from '../../trackers/tracker-3/Tracker3';
 
  function Navegation() {
   return (

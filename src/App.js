@@ -1,32 +1,44 @@
-import "./App.css";
+import React from 'react';
+import Style from "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import Section2 from './components/views/landing/section-2/Section-2';
-//import Header from "../src/components/views/landing/section-1/Header";
-//import Symptom from "../src/components/views/landing/section-1/Symptom";
-//import Section3 from './components/views/landing/section-3/Section-3';
-//import Section4 from './components/views/landing/section-4/Section-4';
+import Section2 from './components/views/landing/section-2/Section-2';
+import Header from "../src/components/views/landing/section-1/Header";
+import Symptom from "../src/components/views/landing/section-1/Symptom";
+import Section3 from './components/views/landing/section-3/Section-3';
+import Section4 from './components/views/landing/section-4/Section-4';
 import Tracker3 from "./components/views/trackers/tracker-3/Tracker3";
-import React from "react";
-import Styles from './App.module.css';
-import { fetchData } from '../src/module/Apiconsum';
 import Table from './components/views/trackers/tracker-3/Table';
+import Cards from './components/views/trackers/tracker-1/Cards';
+import { fetchData } from './components/module/Apiconsum';
+
+
+
+
 
 class App extends React.Component {
-  state = {
-    data: {},
+  state={
+    data:{},
+  }
+
+  async componentDidMount() {
+    const fetchedData = await fetchData();
+    this.setState({data: fetchedData});
+
   }
   
-  async componentDidMount() {
-    const fetchedata = await fetchData();
-
-   this.setState({ data: fetchedData, country: country });
-  }
-    
   render(){
-    const { data , country } = this.state;
-  return (
-    <div className={Styles.container}>
-    {/* <div className="App">
+    const {data} = this.state;
+
+return(
+<div className={Style.container}>
+      <Cards data={data}/>
+
+    <div className="App">
+      <Header />
+      <Basic />
+    </div> 
+
+    <div className="App">
       <Header />
 
       <div className="Symptom">
@@ -46,12 +58,13 @@ class App extends React.Component {
           imagen="banner-right"
         />
       </div>
+      <Cards/>
       <Section2 />
       <Section3 />
       <Section4 />
-    </div>*/}
-    <Tracker3 data={data} country={country} />
-    <Table data={data} country={country}/>
+    </div>
+    <Tracker3 data={data}  />
+    <Table data={data} />
     </div>
   );
 }
