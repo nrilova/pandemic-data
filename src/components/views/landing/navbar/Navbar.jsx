@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import '../../../views/landing/navbar/navbar.css';
+import Tracker3 from '../../trakers/traker-3/Tracker-3';
 
  function Navegation() {
   return (
@@ -41,9 +42,9 @@ import '../../../views/landing/navbar/navbar.css';
             </NavDropdown>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">Help</Nav.Link>
-            <Button className="boton-tracker" variant="primary" 
+            <Button className="boton-tracker" variant="primary" Link to={Tracker3}
             >Tracker
-          </Button>{' '}
+          </Button>{''}
           </Nav> 
         </Navbar.Collapse>
        </Container>
