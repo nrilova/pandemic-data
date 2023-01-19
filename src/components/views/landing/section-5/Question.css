@@ -1,0 +1,64 @@
+/* .section-questions{
+    background-image: url(../../../images/slide-1.jpg);
+    height: 700px;
+    width: 8000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 5%;
+}
+.section-questions :after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1E0C9D, #06CDEC);
+    opacity: 0.95;
+}
+.section-questions .container{
+    position: relative;
+    z-index: 2;
+}
+.space {
+    margin-bottom: 50px;
+}
+.card-blue {
+    background-color: rgba(57, 57, 179, 0.6);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    }
+.card-blue h4 {
+    font-weight: bold;
+    }
+.card-blue p {
+    font-size: 14px;
+    }
+.title1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white
+  }
+.title2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white
+  }
+.text {
+    font-family: 'Poppins', sans-serif;
+  }
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ */

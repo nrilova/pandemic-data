@@ -1,6 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import './cardReact.css';
-import '../../../App.css';
+
 
 
 function CardReact(props) {

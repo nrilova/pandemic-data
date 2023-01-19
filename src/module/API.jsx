@@ -14,4 +14,6 @@ const DataApi = () => {
         responseData
     );
 }
+
+
 export default DataApi;

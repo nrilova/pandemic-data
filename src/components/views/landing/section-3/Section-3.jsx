@@ -11,10 +11,10 @@ import keep2 from '../../../asset/images/p-6.jpg';
 
 function Section3() {
   return (
-    <div>
+    <div className='section-3'>
       <div className="section-title text-center">
         <h4 className="title">Spreads</h4>
-        <h2 className="subtitle">Disease spreads from person to person</h2>
+        <h2 className="subtitle text-primary">Disease spreads from person to person</h2>
       </div>
       <div>
         <div className="container section-spreads">
