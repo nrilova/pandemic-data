@@ -9,15 +9,9 @@ import '../../../views/landing/navbar/navbar.css';
  function Navegation() {
   return (
     <div>
-<<<<<<< HEAD:src/components/landing/navbar/Navbar.jsx
         <Navbar className="nav-navbar" expand="lg">
         <Container className="container-nav">
         <Navbar.Brand className="header-brand" href="#home">COVIMAP</Navbar.Brand>
-=======
-        <Navbar className="nav"expand="lg">
-      <Container className="navbar ">
-        <Navbar.Brand href="#home">COVIMAP</Navbar.Brand>
->>>>>>> c9b03b56fcc64db3cb3b5595300cb688a231e9b4:src/components/views/landing/navbar/Navbar.jsx
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" text-navbar navbar p-3 ">

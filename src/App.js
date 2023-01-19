@@ -1,28 +1,36 @@
-<<<<<<< HEAD
-import './App.css';
-import Header from './components/landing/section-1/Header';
-import Symptom from './components/landing/section-1/Symptom';
-import Basic from './components/atoms/Basic'
+import React from 'react';
+import style from './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Cards from './components/views/trakers/traker1/Cards';
+import { fetchData } from './components/api/index';
+import Basic from './components/atoms/Basic';
+import Header from '../src/components/views/landing/section-1/Header';
+import Symptom from '../src/components/views/landing/section-1/Symptom';
 
 
-=======
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-//import Navbar from './components/landing/navbar/Navbar'
-//import Traker1 from './components/trakers/traker-1/Traker-1'
-import Section2 from './components/views/landing/section-2/Section-2';
-import Header from "../src/components/views/landing/section-1/Header";
-import Symptom from "../src/components/views/landing/section-1/Symptom";
-import Section3 from './components/views/landing/section-3/Section-3';
-import Section4 from './components/views/landing/section-4/Section-4';
->>>>>>> c9b03b56fcc64db3cb3b5595300cb688a231e9b4
 
-function App() {
-  return (
+class App extends React.Component {
+  state={
+    data:{},
+  }
+
+  async componentDidMount() {
+    const fetchedData = await fetchData();
+    this.setState({data: fetchedData});
+
+  }
+  
+  render(){
+    const {data} = this.state;
+
+return(
+<div className={style.container}>
+      <Cards data={data}/>
+
     <div className="App">
       <Header />
       <Basic />
-
+    </div> 
       <div className="Symptom">
         <Symptom
           titulo="Aches and pains"
@@ -39,12 +47,12 @@ function App() {
           text="Older people,and those with underlying medical problems like high bloos pressure,heart and lung problems, diabetes,or cancer."
           imagen="banner-right"
         />
+       
       </div>
-      <Section2 />
-      <Section3 />
-      <Section4 />
-    </div>
+     </div>
+  
   );
+  }
 }
 
 export default App;
