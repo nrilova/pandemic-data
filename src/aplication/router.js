@@ -6,7 +6,7 @@ import App from '../App.js'
     return (
         <BrowserRouter>
             <Routes>
-             <Route path="/" element={<App />}></Route>
+             <Route path="traker-1/" element={<App />}></Route>
             </Routes>
         </BrowserRouter>
     );
