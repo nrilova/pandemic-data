@@ -16,6 +16,10 @@
 
 }
 
+.card-country:hover{
+    transform: scale(1.1); 
+}
+
 
 .paises{
     display: flex;

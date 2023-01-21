@@ -1,9 +1,9 @@
 import React from "react";
-import ConsumoApi from "../../../../module/ApiCountries"
-import '../traker-4/Traker-4.css'
+import Api from "../../module/ApiCountries"
+import './Top10.css'
 
 function TopCountry() {
-    const data = ConsumoApi().sort((a, b) => b.cases - a.cases);
+    const data = Api().sort((a, b) => b.cases - a.cases);
 
     console.log(data);
     return (

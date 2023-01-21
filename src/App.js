@@ -7,11 +7,15 @@ import Section3 from './components/views/landing/section-3/Section-3';
 import Section4 from './components/views/landing/section-4/Section-4';
 import Navtraker from './components/views/trakers/nav/Nav'
 import Traker1 from './components/views/trakers/traker-1/Traker-1'
+import Traker2 from './components/views/trakers/traker-2/Traker-2'
+import Traker4 from './components/views/trakers/traker-4/Traker-4'
+import Top10 from './components/atoms/Top10'
 
 function App() {
   return (
     <div className="App">
-      <Traker1/>
+    <Traker1/>
+      
     </div>
   );
 }

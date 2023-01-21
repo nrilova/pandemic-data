@@ -1,0 +1,30 @@
+.cardCases{
+    display: flex;
+    height: 65px;
+    font-size: medium;
+    margin: 10px;
+    border: solid 1px transparent;
+    justify-content: space-between;
+    border-radius: 2px;
+    align-items: center;
+    background-color: #fff2f2;
+    color:#ff0000;
+    padding: 0px 20px 0px 20px;
+    transition: transform 0.3s;
+    font-family: 'Poppins', sans-serif;
+
+}
+.numberCovidTraker{
+    color:#ff0000;
+}
+
+.cardCases:hover{
+    transform: scale(1.1); 
+    border-color: #FF0000;
+}
+
+.textoStyle{
+    color: #3639ae;
+    font-family: 'Poppins', sans-serif;
+
+}
