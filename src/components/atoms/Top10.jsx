@@ -7,14 +7,14 @@ function TopCountry() {
 
     console.log(data);
     return (
-        <div className="topcountry">
-            <h4 className="titletop">Top 10 Country</h4>
-            <div className="paises">
+        <div className="topCountry">
+            <h4 className="titleTop">Top 10 Country</h4>
+            <div className="countries">
                 {data.slice(0, 10).map((country) => (
                     <div key={country.country} className="card-country">
-                        <img className="img-country" src={country.countryInfo.flag} alt="fly"/>
-                        <p className="name-country">{country.country}</p>
-                        <p className="country-cases">{country.cases}</p>
+                        <img className="imgCountry" src={country.countryInfo.flag} alt="fly"/>
+                        <p className="nameCountry">{country.country}</p>
+                        <p className="countryCases">{country.cases}</p>
                     </div>
                 ))}
             

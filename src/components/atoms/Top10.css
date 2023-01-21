@@ -1,11 +1,11 @@
-.topcountry{
+.topCountry{
     display: flex;
     flex-direction: column;
+    margin-left: 1.1rem;
 }
 .card-country{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 2px;
     border: 2px;
     margin-bottom: 10px;
@@ -21,20 +21,24 @@
 }
 
 
-.paises{
+.countries{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items:flex-start;
-    margin: 2px;
+    margin-left: 2rem;
 }
 
-.img-country{
+.imgCountry{
     width: 80px;
     margin: 5px;
+    border: 2px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+    border: 1px #eee solid;
 }
 
-.name-country{
+.nameCountry{
     margin: 10px;
     margin-bottom: 2px;
     font-weight: 500;
@@ -44,7 +48,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.country-cases{
+.countryCases{
     margin: 10px;
     font-weight: 500;
     line-height: 1.2;
