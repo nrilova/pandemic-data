@@ -1,7 +1,7 @@
 .navbar{
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     align-items: center;   
 }
 
@@ -15,7 +15,7 @@
     font-weight:bold;
     color:white;
 }
-#basic-nav-dropdown, #text-navbar{
+.basic-nav-dropdown, .text-navbar{
     color:white;
 
 }
@@ -32,7 +32,6 @@
 .boton-tracker:hover{
     background-color: #e36f10;
     transform: scale(1.1);
-    
 }
 
 

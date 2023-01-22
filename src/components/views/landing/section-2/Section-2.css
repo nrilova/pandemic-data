@@ -1,5 +1,4 @@
 
-
 .spread-image img {
     width: 100px;
     height: 100px;
@@ -8,19 +7,17 @@
     margin-left: -50px;
     margin-top: -50px;
 }
-
+.text-basic{
+    font-size:40px;
+    color:rgb(30, 30, 85);
+}
+.basic-basic {
+    color:rgb(30, 30, 85);
+   font-weight: bold;
+}
 img {
-    vertical-align: middle;
+    vertical-align:auto;
     border-style: none;
-}
-
-* {
-    outline: none;
-    padding: 0;
-}
-
-*, *::before, *::after {
-    box-sizing: border-box;
 }
 
 img {

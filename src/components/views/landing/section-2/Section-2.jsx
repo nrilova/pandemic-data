@@ -16,8 +16,8 @@ function Section2() {
                 <div className="row justify-content-center">
                     <div className="col-xl-8">
                         <div className="section-title ">
-                            <h5 className="has-animation text-center" data-delay="0">Prevent</h5>
-                            <h2 className="has-animation text-center text-primary" data-delay="50">Best way to prevent is avoid virus.</h2>
+                            <h5 className="text-basic text-center fs-5 " data-delay="0">Prevent</h5>
+                            <h2 className="basic-basic text-center display-4 fw-bold" data-delay="50">Best way to prevent is avoid virus.</h2>
                         </div>
                     </div>
                 </div>

@@ -15,7 +15,7 @@ function Section3() {
     <div className='section-3 bg-white h-100'>
       <div className="section-title text-center mt-5">
         <h4 className="title">Spreads</h4>
-        <h2 className="subtitle text-primary">Disease spreads from person to person</h2>
+        <h2 className=" basic-basic text-center display-4 fw-bold">Disease spreads from person to person</h2>
       </div>
       <div>
         <div className=" section-spreads">
@@ -59,7 +59,7 @@ function Section3() {
           <div className="card-spread col-md-3 p-5 flex-sm-column 
             ">
               <CardReact
-                imageUrl={wear1}
+                imageUrl={wear2}
                 imageAlt="wear facemask 1"
                 title="Wear FaceMask"
                 description=" Fever is a key symptom, experts say. Don't fixate on a number,
@@ -70,7 +70,7 @@ function Section3() {
 
             <div className="card-spread col-md-3 p-5 ">
               <CardReact
-                imageUrl={wash1}
+                imageUrl={wash2}
                 imageAlt="wash hands 1"
                 title="Wash your hangs often"
                 description="Coughing is another key symptom, but it's not just any cough,
@@ -80,7 +80,7 @@ function Section3() {
             </div>
             <div className="card-spread col-md-3 p-5">
               <CardReact
-                imageUrl={keep1}
+                imageUrl={keep2}
                 imageAlt="keep social distance"
                 title="Keep social distance"
                 description=" Shortness of breath can be a third -- and very serious --

@@ -13,9 +13,9 @@ import '../../../views/landing/navbar/navbar.css';
         <Container className="container-nav">
         <Navbar.Brand className="header-brand" href="#home">COVIMAP</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className="basic-navbar-nav">
           <Nav className=" text-navbar navbar p-3 ">
-          <NavDropdown title="Home" id="basic-nav-dropdown">
+          <NavDropdown title="Home" className="basic-nav-dropdown">
               <NavDropdown.Item className="text-navbar" href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -26,9 +26,9 @@ import '../../../views/landing/navbar/navbar.css';
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link id="text-navbar" href="#link">Prevention</Nav.Link>
-            <Nav.Link id="text-navbar" href="#link">Qurantine</Nav.Link>
-            <NavDropdown title="Pages" id="basic-nav-dropdown">
+            <Nav.Link className="text-navbar" href="#link">Prevention</Nav.Link>
+            <Nav.Link className="text-navbar" href="#link">Qurantine</Nav.Link>
+            <NavDropdown title="Pages" className="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -39,9 +39,9 @@ import '../../../views/landing/navbar/navbar.css';
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link id="text-navbar"href="#link">About</Nav.Link>
-            <Nav.Link id="text-navbar"href="#link">Help</Nav.Link>
-            <Button className="boton-tracker" variant="primary" 
+            <Nav.Link className="text-navbar"href="#link">About</Nav.Link>
+            <Nav.Link className="text-navbar"href="#link">Help</Nav.Link>
+            <Button type="button" className="boton-tracker" variant="primary" href=""
             >Tracker
           </Button>{' '}
           </Nav> 
