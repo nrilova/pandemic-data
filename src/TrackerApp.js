@@ -3,18 +3,20 @@ import CountryWise from "./components/views/trackers/tracker-3/CountryWise";
 import Top10 from "./components/atoms/Top10";
 import CovidTraker from './components/atoms/CovidTraker';
 
-function App() {
+function TrackerApp() {
     return (
-      <div className="App">
+      <div className="Container-tracker">
       <Navtraker />
+      <div className='top10'>
       <CovidTraker />
       <Top10 />
-      <CountryWise />
-        
       </div>
+      <CountryWise />
+      </div>
+     
     );
   }
   
-  export default App;
+  export default TrackerApp;
     
   

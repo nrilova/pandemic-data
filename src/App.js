@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //import Cards from './components/views/trackers/tracker-1/Cards';
 //import Basic from './components/atoms/Basic';
 //import Question from './components/views/landing/section-5/Question';
-import TrackerApp from './TrackerApp';
+
 
 function App() {
   return (
@@ -22,7 +22,6 @@ function App() {
     <Section3 />
     <Section4 />  */}
    {/*  <Question /> */}
-   <TrackerApp />
     </div>
   );
 }

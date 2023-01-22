@@ -7,10 +7,19 @@
  body{
   font-size:18px;
   background-color:rgb(239, 235, 235);
+  display: flex;
 
 }
 
 
-.App{
+.TrackerApp{
     display: flex;
+}
+.container-tracker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top10 {
+  display:block;
 }
