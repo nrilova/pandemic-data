@@ -1,0 +1,104 @@
+.container{
+display:flex;
+align-items:center;
+margin-right:20px;
+padding: 20px;
+justify-content: center;
+overflow: hidden;
+
+
+}
+
+
+.todayCases, .todayDeaths, .todayRecovered, .updated, .cases, .deaths {
+  
+  padding: 20px;
+ 
+  transition: all 0.3 ease-in;
+}
+
+
+.todayCase {
+    height: 8.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.15;
+    transform: translate(1.5rem, -2rem);
+}
+
+
+
+.todayCases:hover {
+  border: solid 0.15rem red;
+  transform: scale(1.050);
+  transition: all 0.3 ease-in;
+}
+  
+.todayDeaths:hover {
+  border: solid 0.15rem orange;
+  transform: scale(1.050);
+  transition: all 0.3 ease-in;
+}
+  
+.todayRecovered:hover {
+ border: solid 0.15rem green;
+ transform: scale(1.050);
+ transition: all 0.3 ease-in;
+}
+ 
+.updated:hover {
+  border: solid 0.15rem blue;
+  transform: scale(1.050);
+  transition: all 0.3 ease-in;
+}
+.cases:hover{
+  border: solid 0.15rem rgb(230, 26, 216);
+  transform: scale(1.050);
+  transition: all 0.3 ease-in; 
+}
+.deaths:hover{
+  border: solid 0.15rem rgb(82, 18, 107);
+  transform: scale(1.050);
+  transition: all 0.3 ease-in; 
+}
+    
+
+.card-animation {
+    transition: all 0.5 ease-in;
+}
+
+.card-animation:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.5 ease-in;
+}
+
+.card-total-cases {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.card-total-cases img {
+    width: 8.5rem;
+    height: 8.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.15;
+    transform: translate(1.5rem, -2rem);
+}
+
+.card-total-cases img:hover {
+    animation: rotation 6s infinite linear;
+}
+
+.card-animation02:hover img {
+    animation: rotation 6s infinite linear;
+}
+
+.card-animation02 img {
+    height: 3.5rem;
+}
