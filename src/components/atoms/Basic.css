@@ -1,7 +1,10 @@
 .seccion-basic{
     width: 50%;
-   
     margin-top: 70px;   
+    margin-bottom: 70px;
+}
+.symptom {
+    margin-bottom: 6%;
 }
 .text-basic{
     font-size:40px;

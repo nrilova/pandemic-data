@@ -16,7 +16,6 @@
 
 .title, h1 {
   text-align: center;
-  font-size: roboto(5px + 2vmin);
   color: rgb(5, 3, 123);
 }
 

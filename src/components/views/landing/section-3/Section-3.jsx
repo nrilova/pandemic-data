@@ -1,27 +1,29 @@
-import React from 'react';
-import '../../../views/landing/section-3/Section-3.css';
-import CardReact from '../../../atoms/CardReact';
-import wear1 from '../../../asset/images/p-1.jpg';
-import wear2 from '../../../asset/images/p-2.jpg';
-import wash1 from '../../../asset/images/p-3.jpg';
-import wash2 from '../../../asset/images/p-4.jpg';
-import keep1 from '../../../asset/images/p-5.jpg';
-import keep2 from '../../../asset/images/p-6.jpg';
-
-
+import React from "react";
+import "../../../views/landing/section-3/Section-3.css";
+import CardReact from "../../../atoms/CardReact";
+import wear1 from "../../../asset/images/p-1.jpg";
+import wear2 from "../../../asset/images/p-2.jpg";
+import wash1 from "../../../asset/images/p-3.jpg";
+import wash2 from "../../../asset/images/p-4.jpg";
+import keep1 from "../../../asset/images/p-5.jpg";
+import keep2 from "../../../asset/images/p-6.jpg";
 
 function Section3() {
   return (
-    <div className='section-3 bg-white h-100'>
+    <div className="section-3 bg-white h-100">
       <div className="section-title text-center mt-5">
         <h4 className="title">Spreads</h4>
-        <h2 className=" basic-basic text-center display-4 fw-bold">Disease spreads from person to person</h2>
+        <h2 className=" basic-basic text-center display-4 fw-bold">
+          Disease spreads from person to person
+        </h2>
       </div>
       <div>
-        <div className=" section-spreads">
+        <div className=" section-spreads ">
           <div className="row justify-content-around m-3 ">
-            <div className="card-spread col-md-3 p-5 flex-sm-column 
-            ">
+            <div
+              className="card-spread col-md-3
+            "
+            >
               <CardReact
                 imageUrl={wear1}
                 imageAlt="wear facemask 1"
@@ -32,7 +34,7 @@ function Section3() {
               />
             </div>
 
-            <div className="card-spread col-md-3 p-5 ">
+            <div className="card-spread col-md-3  ">
               <CardReact
                 imageUrl={wash1}
                 imageAlt="wash hands 1"
@@ -42,7 +44,7 @@ function Section3() {
                 chest."
               />
             </div>
-            <div className="card-spread col-md-3 p-5">
+            <div className="card-spread col-md-3 ">
               <CardReact
                 imageUrl={keep1}
                 imageAlt="keep social distance"
@@ -52,12 +54,12 @@ function Section3() {
                 a cough."
               />
             </div>
-
-         
           </div>
           <div className="row justify-content-around m-3 ">
-          <div className="card-spread col-md-3 p-5 flex-sm-column 
-            ">
+            <div
+              className="card-spread col-md-3
+            "
+            >
               <CardReact
                 imageUrl={wear2}
                 imageAlt="wear facemask 1"
@@ -68,7 +70,7 @@ function Section3() {
               />
             </div>
 
-            <div className="card-spread col-md-3 p-5 ">
+            <div className="card-spread col-md-3 ">
               <CardReact
                 imageUrl={wash2}
                 imageAlt="wash hands 1"
@@ -78,7 +80,7 @@ function Section3() {
                 chest."
               />
             </div>
-            <div className="card-spread col-md-3 p-5">
+            <div className="card-spread col-md-3">
               <CardReact
                 imageUrl={keep2}
                 imageAlt="keep social distance"
@@ -88,8 +90,6 @@ function Section3() {
                 a cough."
               />
             </div>
-
-        
           </div>
         </div>
       </div>
