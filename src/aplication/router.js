@@ -7,7 +7,6 @@ import App from '../App.js'
         <BrowserRouter>
             <Routes>
              <Route path="/" element={<App />}></Route>
-             <Route path="/TrackerApp" element={<TrackerApp />}></Route>
             </Routes>
         </BrowserRouter>
     );
