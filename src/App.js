@@ -4,8 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './components/views/trakers/traker1/Cards';
 import { fetchData } from './components/api/index';
 import Basic from './components/atoms/Basic';
-import Header from '../src/components/views/landing/section-1/Header';
+import  Header from '../src/components/views/landing/section-1/Header';
 import Symptom from '../src/components/views/landing/section-1/Symptom';
+
 
 
 
@@ -40,7 +41,7 @@ return(
         <Symptom
           titulo="Runny nose"
           text="People of all ages who experience fever and/or cough associated withdifficulty breathing/shortness of breath."
-          imagen="banner-right"
+          imagen="banner-right-image"
         />
         <Symptom
           titulo="Sore throat"
@@ -49,6 +50,7 @@ return(
         />
        
       </div>
+     
      </div>
   
   );

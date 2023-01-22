@@ -4,9 +4,9 @@ const url='https://disease.sh/v3/covid-19/all';
 
 export const fetchData = async () => {
     try{
-        const { data : { active, recovered, deaths, updated }} = await axios.get(url);
+        const { data : { todayCases, todayDeaths, todayRecovered, updated,cases,deaths }} = await axios.get(url);
       
-      return { active, recovered, deaths, updated };
+      return {todayCases, todayDeaths, todayRecovered, updated,cases,deaths };
     }catch (error){
   
 
