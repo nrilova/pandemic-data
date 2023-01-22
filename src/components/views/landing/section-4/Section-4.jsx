@@ -26,7 +26,6 @@ function Views () {
      </div>
   </div>
   
-     
     );
     }
 

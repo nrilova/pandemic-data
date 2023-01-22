@@ -1,0 +1,21 @@
+
+.contenedor-spread:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(0,0,0,1);
+    z-index: 1;
+}
+
+.name-spread{
+    margin-left:20px; 
+}
+.text-spread{
+    font-size: 15px;
+    margin-left:20px;
+}
+
+.imagen-spread{
+    margin-left:20px;
+    padding-top:20px;
+    width: 100px;
+    height:18px;  
+}

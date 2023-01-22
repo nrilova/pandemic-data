@@ -6,7 +6,7 @@ import '../atoms/Stayhome.css';
 
 function Stayhome() {
   return (
-       <div>
+       <div className='container-stayhome'>
               <h1 className="stayhome">
                 Stay Home, And Player For Victim Of Corona virus.
               </h1>

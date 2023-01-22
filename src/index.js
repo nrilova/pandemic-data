@@ -7,7 +7,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
-export {default as Cards } from './components/views/trakers/traker1/Cards';
+export {default as Cards } from './components/views/trakers/tracker-1/Cards';
 
 
 

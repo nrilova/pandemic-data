@@ -1,62 +1,33 @@
-import React from 'react';
-import style from './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './components/views/trakers/traker1/Cards';
-import { fetchData } from './components/api/index';
-import Basic from './components/atoms/Basic';
-import Header from './components/views/landing/section-1/Header';
-import Symptom from './components/views/landing/section-1/Symptom';
-import Section2 from './components/views/landing/section-2/Section-2';
-import Section3 from './components/views/landing/section-3/Section-3';
-import Section4 from './components/views/landing/section-4/Section-4';
-import Questions from './components/views/landing/section-5/Question';
+import React from "react";
+import style from "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Cards from "./components/views/trakers/tracker-1/Cards";
+import { fetchData } from "./components/api/index";
+import Landing from "./components/views/landing/Landing";
+
+// import Questions from './components/views/landing/section-5/Question';
 class App extends React.Component {
-  state={
-    data:{},
-  }
+  state = {
+    data: {},
+  };
 
   async componentDidMount() {
     const fetchedData = await fetchData();
-    this.setState({data: fetchedData});
-
+    this.setState({ data: fetchedData });
   }
-  
-  render(){
-    const {data} = this.state;
 
-return(
-<div className={style.container}>
-      <Cards data={data}/>
+  render() {
+    const { data } = this.state;
 
-    <div className="App">
-      
-      <Header />
-      <Basic />
-    </div> 
-      <div className="Symptom">
-        <Symptom
-          titulo="Aches and pains"
-          text="Fever is a Key symptom,experts say. Don't fixate an a number, but know it's really not a fiver until your temperature reaches at least 100."
-          imagen="banner-right"
-        />
-        <Symptom
-          titulo="Runny nose"
-          text="People of all ages who experience fever and/or cough associated withdifficulty breathing/shortness of breath."
-          imagen="banner-right"
-        />
-        <Symptom
-          titulo="Sore throat"
-          text="Older people,and those with underlying medical problems like high bloos pressure,heart and lung problems, diabetes,or cancer."
-          imagen="banner-right"
-        />
-       
+    return (
+      <div className={style.container}>
+        <Cards data={data} />
+
+        <div> 
+          <Landing/>
+        </div>
       </div>
-      <Section2/>
-      <Section3 />
-      <Section4 />
-      <Questions />
-    </div>
-  );
+    );
   }
 }
 

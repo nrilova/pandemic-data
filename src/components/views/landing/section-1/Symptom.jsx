@@ -3,8 +3,8 @@ import "../../../views/landing/section-1/Symptom.css";
 
 function Symptom(props) {
   return (
-    <section className="section-symptom ">
-      <div className="contenedor-symptom justify-content-around m-5">
+    <section className="section-symptom">
+      <div className="contenedor-symptom justify-content-around m-2">
         <img
           className="imagen-symptom"
           src={require(`../../../asset/images/${props.imagen}.png`)}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, CardContent, Typography,Grid} from '@mui/material';
-import styles from '../traker1/Cards.css';
+import styles from './Cards.css';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 
