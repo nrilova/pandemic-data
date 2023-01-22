@@ -1,0 +1,60 @@
+.topcountry{
+    display: flex;
+    flex-direction: column;
+}
+.card-country{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2px;
+    border: 2px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+    border: 1px #eee solid;
+    padding:unset;
+
+}
+
+
+.paises{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 2px;
+}
+
+.img-country{
+    width: 80px;
+    margin: 5px;
+}
+
+.name-country{
+    margin: 10px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #121158;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.country-cases{
+    margin: 10px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #121158;
+    font-size: 0.875rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h4{
+    display: flex;
+    align-items:flex-start;
+    color: #121158;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
