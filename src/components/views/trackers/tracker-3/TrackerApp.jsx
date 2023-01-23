@@ -7,7 +7,7 @@ function App() {
     return (
       <main className="d-flex">
       <Navtraker />
-      <section className="slashcountry">
+      <section className="slashcountries">
       <CovidTracker />
       <Top10 />
       </section>

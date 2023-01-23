@@ -52,3 +52,6 @@ th:hover::after {
     border:0.5px solid rgb(12, 12, 12);
 }
 
+.Dos {
+    width: 100px;
+}

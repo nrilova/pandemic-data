@@ -58,7 +58,7 @@ return (
                         rpg + rpg).map((country, Key) => {
                         return (
                             <><tr key={Key}>
-                                <th><img src={country.countryInfo.flag} alt="flag" /></th>
+                                <th><img className='Dos' src={country.countryInfo.flag} alt="flag" /></th>
                                 <td>{country.country}</td>
                                 <td>{country.cases}</td>
                                 <td>{country.newcases}</td>

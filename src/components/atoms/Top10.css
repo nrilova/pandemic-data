@@ -66,3 +66,6 @@ h4{
     padding-left: 10px;
     font-family: 'Poppins', sans-serif;
   }
+  .slashcountries{
+    overflow: scroll;
+}
