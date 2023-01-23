@@ -1,5 +1,5 @@
 import React from "react";
-import Api from "../../module/ApiCountries"
+import Api from "../module/ApiCountries"
 import './Top10.css'
 
 function TopCountry() {

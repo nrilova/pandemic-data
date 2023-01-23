@@ -4,6 +4,7 @@ import Navegation from '../../../views/landing/navbar/Navbar';
 import Stayhome from '../../../atoms/Stayhome.jsx';
 
 
+
  function Header() {
   return (
     <header>

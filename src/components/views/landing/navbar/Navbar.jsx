@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import '../../../views/landing/navbar/navbar.css';
-
+import TrackerApp from '../../trackers/tracker-3/TrackerApp';
 
  function Navegation() {
   return (
@@ -42,7 +42,8 @@ import '../../../views/landing/navbar/navbar.css';
             </NavDropdown>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">Help</Nav.Link>
-            <Button className="boton-tracker" variant="primary" 
+            
+            <Button className="boton-tracker" variant="primary" href='/TrackerApp'
             >Tracker
           </Button>{''}
           </Nav> 

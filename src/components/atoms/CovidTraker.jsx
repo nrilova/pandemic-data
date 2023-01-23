@@ -1,4 +1,4 @@
-import ApiAll from "../../module/ApiAll"
+import ApiAll from "../module/ApiAll";
 import './CovidTraker.css'
   
 const CovidTraker = () => {
