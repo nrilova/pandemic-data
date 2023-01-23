@@ -10,6 +10,7 @@ import Traker1 from './components/views/trakers/traker-1/Traker-1'
 import Traker2 from './components/views/trakers/traker-2/Traker-2'
 import Traker4 from './components/views/trakers/traker-4/Traker-4'
 import Top10 from './components/atoms/Top10'
+import  TopCasesToday from "./components/views/trakers/traker-2/Traker-2";
 
 function App() {
   return (

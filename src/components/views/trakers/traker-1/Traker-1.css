@@ -1,3 +1,7 @@
 .barraPaises{
     overflow: scroll;
 }
+
+.trakerDos{
+    display: flex;
+}

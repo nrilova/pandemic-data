@@ -1,20 +1,20 @@
 import React from "react";
-import Api from "../../../../module/ApiCountries"
+import Api from "../../module/ApiCountries"
 
 
-function  TopCasesToday() {
-    const data = Api().sort((a, b) => b.todayCases - a.todayCases);
+function TopCases() {
+    const data = Api().sort((a, b) => b.cases - a.cases);
 
     console.log(data);
     return (
         <div className="topCountry">
-            <h4 className="titleTop">Today Cases</h4>
+            <h4 className="titleTop">Top Cases</h4>
             <div className="countries">
                 {data.slice(0, 10).map((country) => (
                     <div key={country.country} className="card-country">
-                        <img className="imgCountry" src={country.countryInfo.flag} alt=""/>
+                        <img className="imgCountry" src={country.countryInfo.flag} alt="fly"/>
                         <p className="nameCountry">{country.country}</p>
-                        <p className="countryCases">{country.todayCases}</p>
+                        <p className="countryCases">{country.cases}</p>
                     </div>
                 ))}
             
@@ -23,4 +23,4 @@ function  TopCasesToday() {
     )
 }
 
-export default TopCasesToday;
+export default TopCases;
