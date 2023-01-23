@@ -10,7 +10,7 @@ return(
     <div className="App">
       <Header />
       <Basic />
-    <Symptom />
+      <Symptom />
   
 </div>
   
