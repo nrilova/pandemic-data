@@ -1,9 +1,10 @@
+
 .cover{
     background-image: url(../../../asset/images/3626307.jpg);
     /* cubre todo el contenedor*/
-   
+    box-sizing: border-box;
     height: 700px;
-
+    overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

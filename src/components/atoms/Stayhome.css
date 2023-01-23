@@ -1,4 +1,5 @@
 .row{
+box-sizing: border-box;
 display: inline-block;
 margin-block-start: 1em;
 margin-block-end: 1em;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, Typography,Grid} from '@mui/material';
+import {Card, Typography,Grid,CardMedia} from '@mui/material';
 import styles from './Cards.module.css';
 import CountUp from 'react-countup';
 import Map from '../traker1/Map';
@@ -17,10 +17,8 @@ const  Cards = ({data:{todayCases, todayDeaths, todayRecovered, updated,cases,de
         <Card className={styles.todayCases}>
           
         <Typography color="texSecondary" gutterBottom>todayCases</Typography>
-         
           <Typography variant="h6">
-
-         
+          
             <CountUp start={todayCases} end={todayCases.value} duration={2.5} separator=',' />
           </Typography> 
         </Card>
